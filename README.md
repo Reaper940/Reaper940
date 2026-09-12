@@ -232,10 +232,6 @@ PostgreSQL-backed commodities/crypto dashboard, stress-tested against 50K synthe
   <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Reaper940&layout=compact&theme=radical&hide_border=true" />
 </p>
 
-<p align="center">
-  <img src="https://streak-stats.demolab.com/?user=Reaper940&theme=radical&hide_border=true" />
-</p>
-
 ---
 
 ## 🗣️ My Dev Philosophy
