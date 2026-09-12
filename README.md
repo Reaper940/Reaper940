@@ -1,4 +1,4 @@
-<h1 align="center">Hi 👋, I'm Saad Bin Asif</h1>
+<h1 align="center">Hi, I'm Saad Bin Asif</h1>
 <h3 align="center">Senior Software Engineer — Product Engineering, Data Systems, Infrastructure & Game Development</h3>
 
 <p align="center">
