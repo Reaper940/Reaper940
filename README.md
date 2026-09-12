@@ -188,22 +188,6 @@ I'm a senior software engineer building production systems across two markets �
 
 ---
 
-## 🏆 Trophies
-
-<p align="center">
-  <img src="https://github-profile-trophy-tawny.vercel.app/?username=Reaper940&theme=radical&no-frame=true&row=1&column=7" />
-</p>
-
----
-
-## 📈 Contribution Graph
-
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Reaper940&theme=react-dark&hide_border=true" />
-</p>
-
----
-
 ## 🗣️ My Dev Philosophy
 
 <p align="center">
