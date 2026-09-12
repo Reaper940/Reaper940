@@ -132,7 +132,7 @@ Offline-first PWA + FastAPI + PostGIS system for field survey data; fixed a prod
 - **Schema migrations:** boundary assignments, pesticide lookup tables, survey reviewer tracking, role/sequence fixes, soft-delete design; resolved crop-type foreign key constraints
 - **DevOps:** GitHub Actions CI/CD with Tailscale SSH deployment; resolved staging-vs-production path conflicts; Docker Compose for local development, Kubernetes for production
 
-**Scaled:** Stabilized a multi-developer shared staging environment that was previously failing under concurrent load; imagery now serves from cloud storage instead of local disk, removing a hard scaling ceiling. Also trained and mentored junior engineers (Adnan Raheem, Haseeb, Hasnain) onto the system's architecture.
+**Scaled:** Stabilized a multi-developer shared staging environment that was previously failing under concurrent load; imagery now serves from cloud storage instead of local disk, removing a hard scaling ceiling. Also trained and mentored junior engineers onto the system's architecture.
 
 </details>
 
@@ -154,7 +154,7 @@ Airflow-orchestrated ETL with a Google Cloud Vision OCR stage to parse photograp
 - **Other fixes:** JWT logging bug fix, Supabase storage integration for report artifacts, Track & Trace report cleaning
 - **DevOps:** Docker Compose for local development; Kubernetes for production deployment, with Celery workers scaled as pods
 
-**Scaled:** Pipeline has been running in production since early 2025, processing recurring seasonal data across multiple mills; trained and mentored a team of junior engineers (Adnan Raheem, Haseeb, Hasnain) to maintain and extend it.
+**Scaled:** Pipeline has been running in production since early 2025, processing recurring seasonal data across multiple mills; trained and mentored a team of junior engineers to maintain and extend it.
 
 </details>
 
