@@ -11,6 +11,13 @@
   <img src="https://img.shields.io/badge/Based%20in-Lahore%2C%20Pakistan-success?style=flat-square" />
 </p>
 
+## 📫 Connect
+
+<p align="center">
+  <a href="mailto:saad.asif94@hotmail.com"><img src="https://img.shields.io/badge/-Email-D14836?style=flat-square&logo=gmail&logoColor=white" /></a>
+  <a href="https://www.linkedin.com/in/saadasif94/"><img src="https://img.shields.io/badge/-LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white" /></a>
+</p>
+
 ---
 
 ## 👤 About Me
@@ -192,15 +199,6 @@ I'm a senior software engineer building production systems across two markets �
 
 <p align="center">
   <i>"First, do it. Then, improve it."</i>
-</p>
-
----
-
-## 📫 Connect
-
-<p align="left">
-  <a href="mailto:saad.asif94@hotmail.com"><img src="https://img.shields.io/badge/-Email-D14836?style=flat-square&logo=gmail&logoColor=white" /></a>
-  <a href="https://www.linkedin.com/in/saadasif94/"><img src="https://img.shields.io/badge/-LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white" /></a>
 </p>
 
 <p align="center"><i>Open to backend / full-stack / data engineering roles</i></p>
