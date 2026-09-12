@@ -233,7 +233,7 @@ PostgreSQL-backed commodities/crypto dashboard, stress-tested against 50K synthe
 </p>
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Reaper940&theme=radical&hide_border=true" />
+  <img src="https://streak-stats.demolab.com/?user=Reaper940&theme=radical&hide_border=true" />
 </p>
 
 ---
