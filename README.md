@@ -1,4 +1,4 @@
-<h1 align="center">Hi, I'm Saad Bin Asif</h1>
+<h1 align="center">Hi 👋, I'm Saad Bin Asif</h1>
 <h3 align="center">Senior Software Engineer — Product Engineering, Data Systems, Infrastructure & Game Development</h3>
 
 <p align="center">
@@ -222,15 +222,6 @@ PostgreSQL-backed commodities/crypto dashboard, stress-tested against 50K synthe
 **Scaled:** Dashboard now reliably handles large commodity/crypto datasets and integrates with live exchange APIs for realistic market-data testing.
 
 </details>
-
----
-
-## 📊 GitHub Stats
-
-<p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=Reaper940&show_icons=true&theme=radical&hide_border=true&count_private=true" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Reaper940&layout=compact&theme=radical&hide_border=true" />
-</p>
 
 ---
 
