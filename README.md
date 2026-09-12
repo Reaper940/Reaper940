@@ -1,4 +1,4 @@
-<h1 align="center">Hi 👋, I'm Saad Bin Asif</h1>
+<h1 align="center">Hi, I'm Saad Bin Asif</h1>
 <h3 align="center">Senior Software Engineer — Product Engineering, Data Systems, Infrastructure & Game Development</h3>
 
 <p align="center">
@@ -16,6 +16,7 @@
 <p align="center">
   <a href="mailto:saad.asif94@hotmail.com"><img src="https://img.shields.io/badge/-Email-D14836?style=flat-square&logo=gmail&logoColor=white" /></a>
   <a href="https://www.linkedin.com/in/saadasif94/"><img src="https://img.shields.io/badge/-LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white" /></a>
+  <a href="https://wa.me/923355797878"><img src="https://img.shields.io/badge/-WhatsApp-25D366?style=flat-square&logo=whatsapp&logoColor=white" /></a>
 </p>
 
 ---
@@ -94,6 +95,11 @@ I'm a senior software engineer building production systems across two markets �
 ## 🚀 Recent Projects
 
 ### 🎾 Arena Desk — Padel & Tennis Arena Management SaaS *(Founder)*
+Multi-tenant booking SaaS built solo, end-to-end (backend, frontend, DevOps) — FastAPI + Next.js 15, migrated MVP from Supabase to self-hosted Postgres, deployed on Kubernetes.
+
+<details>
+<summary>See full breakdown</summary>
+
 **Problem:** Padel and tennis arena operators were running bookings, staff scheduling, payments, and cafe inventory across disconnected spreadsheets and tools, with no real-time, collision-free court scheduling and no way to onboard multiple arenas on shared infrastructure.
 
 **Solution:** Founded and built a multi-tenant SaaS from scratch, owning backend, frontend, and DevOps end-to-end:
@@ -105,9 +111,16 @@ I'm a senior software engineer building production systems across two markets �
 
 **Scaled:** The multi-tenant role model means new arena businesses onboard onto the same infrastructure without a per-client deployment — the `dev` role provisions an organization and its data is isolated from every other tenant by default.
 
+</details>
+
 ---
 
 ### 🌾 Agricultural Survey Management System (AgriFlow) — *Currently Active*
+Offline-first PWA + FastAPI + PostGIS system for field survey data; fixed a production-breaking connection-pool exhaustion bug and migrated raster storage to a scalable cloud pipeline.
+
+<details>
+<summary>See full breakdown</summary>
+
 **Problem:** Field teams needed to collect survey data with unreliable connectivity, and the shared staging database was hitting connection pool exhaustion — 5 engineers sharing a 15-connection PgBouncer limit caused transaction leaks and downtime. Serving large geospatial raster imagery was also bottlenecked by local disk storage.
 
 **Solution:** Owned the system end-to-end — backend, frontend, and DevOps:
@@ -121,9 +134,16 @@ I'm a senior software engineer building production systems across two markets �
 
 **Scaled:** Stabilized a multi-developer shared staging environment that was previously failing under concurrent load; imagery now serves from cloud storage instead of local disk, removing a hard scaling ceiling. Also trained and mentored junior engineers (Adnan Raheem, Haseeb, Hasnain) onto the system's architecture.
 
+</details>
+
 ---
 
 ### 🏭 Sugar Mill ETL & Reporting Pipeline
+Airflow-orchestrated ETL with a Google Cloud Vision OCR stage to parse photographed mill reports, feeding materialized views for fast reporting at scale.
+
+<details>
+<summary>See full breakdown</summary>
+
 **Problem:** Crushing-season data arrived as inconsistent Excel files and WhatsApp photos of mill reports across many mills, with duplicate/inconsistent mill naming corrupting cross-season comparisons — and raw queries were too slow for daily reporting.
 
 **Solution:** Owned the pipeline end-to-end — backend, data engineering, and DevOps:
@@ -136,9 +156,16 @@ I'm a senior software engineer building production systems across two markets �
 
 **Scaled:** Pipeline has been running in production since early 2025, processing recurring seasonal data across multiple mills; trained and mentored a team of junior engineers (Adnan Raheem, Haseeb, Hasnain) to maintain and extend it.
 
+</details>
+
 ---
 
 ### 🔧 Garage Management & Booking Platform (Vogue Technics)
+Live production booking platform (FastAPI + Next.js + Laravel portal) with a 14-stage workflow; also owned infra migration, security hardening, and DDoS incident response.
+
+<details>
+<summary>See full breakdown</summary>
+
 **Problem:** A UK garage business had no digital booking or operations system — quoting, payments, and mechanic scheduling were all manual — and the original server infrastructure was insecure, eventually suffering a DDoS/botnet incident on a previous Contabo deployment.
 
 **Solution:** Owned the platform end-to-end — backend, frontend, and DevOps:
@@ -152,9 +179,16 @@ I'm a senior software engineer building production systems across two markets �
 
 **Scaled:** Took the platform from a single Figma design to a live, production booking system now running the business's day-to-day operations, with zero-downtime DNS migration and a resolved live security incident.
 
+</details>
+
 ---
 
 ### 📣 B2B Lead Generation Engine (Garage Growth Solutions)
+Config-driven Python/Selenium scraper generating enriched leads across 20 UK cities, paired with a multi-channel outreach system.
+
+<details>
+<summary>See full breakdown</summary>
+
 **Problem:** As founder, I needed a scalable way to find and reach UK independent garage owners without paying for expensive commercial lead lists.
 
 **Solution:** Owned the engine end-to-end — scraping backend, outreach automation, and DevOps:
@@ -166,9 +200,16 @@ I'm a senior software engineer building production systems across two markets �
 
 **Scaled:** The config-driven design lets new cities be added without touching code, so the pipeline scales lead generation horizontally across markets rather than needing a rebuild per city.
 
+</details>
+
 ---
 
 ### 📈 Trading Analytics Dashboard (Trade Verse)
+PostgreSQL-backed commodities/crypto dashboard, stress-tested against 50K synthetic records and integrated with Binance Futures testnet.
+
+<details>
+<summary>See full breakdown</summary>
+
 **Problem:** The dashboard needed to be validated against realistic data volume before going live, and pagination endpoints were producing stale transactions under concurrent access.
 
 **Solution:** Owned the dashboard end-to-end — backend, frontend, and DevOps:
@@ -179,6 +220,8 @@ I'm a senior software engineer building production systems across two markets �
 - **DevOps:** Docker Compose for local development, Kubernetes for production deployment
 
 **Scaled:** Dashboard now reliably handles large commodity/crypto datasets and integrates with live exchange APIs for realistic market-data testing.
+
+</details>
 
 ---
 
